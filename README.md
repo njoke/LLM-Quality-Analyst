@@ -1,4 +1,4 @@
-# LLM Response Quality Checker
+# LLM Responses Quality Checker
 
 This project evaluates the quality of responses from large language models (LLMs) by comparing them to answers from Wolfram Alpha. It uses Docker, Redis, and local LLMs to create a scalable and efficient testing environment.
 
