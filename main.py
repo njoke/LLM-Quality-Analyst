@@ -1,3 +1,4 @@
+
 import csv
 import time
 import requests
@@ -21,7 +22,7 @@ def get_wolfram_alpha_answer(question):
         print(f"Retrieved from Redis: {question}")  # Debugging line
         answer = cached_answer.decode()
     else:
-        appid = "L3PH8R-XRWETEVXUK"  # Replace with your actual App ID
+        appid = "L3PH8R-Xxxxxx"  # Replace with your actual App ID
         encoded_question = requests.utils.quote(question)
         url = f"https://api.wolframalpha.com/v1/result?i={encoded_question}&appid={appid}"
         response = requests.get(url)
